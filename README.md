@@ -1,5 +1,16 @@
 # Fukami
 
+> **日本語版（Japanese edition）ブランチ**
+>
+> このフォークの `japanese-edition` ブランチは、**リッジレーサーV 日本語版（`SLPS-20001`）** を Fukami で動かす実験的な移植です。
+> 動作確認は Linux のみです。GP 4戦の完走、セーブとロード、高速化、ワイド画面、車の描画の細かさ、描画距離に対応しています。
+> このブランチでは北米版は正しく動きません。北米版を遊ぶ場合は、元のプロジェクト [danisandoval/fukami](https://github.com/danisandoval/fukami) を使ってください。
+> ゲームのデータやコードは含まれていません。ご自分で持っているディスクから生成します。状況とビルド手順は [docs/japanese-edition.md](docs/japanese-edition.md) にまとめています。
+>
+> This branch is an experimental port of the **Japanese edition (`SLPS-20001`)**, tested on Linux only. It is JP-only:
+> the North American build is not correct here; use [danisandoval/fukami](https://github.com/danisandoval/fukami) for
+> that. Status and build notes: [docs/japanese-edition.md](docs/japanese-edition.md).
+
 **Fukami** is a native port of **Ridge Racer V** (PlayStation 2, USA, `SLUS-20002`) for Windows, macOS (Apple silicon) and
 Linux (Steam Deck), made by static recompilation: the game's MIPS code is translated ahead of time into C++ and
 compiled into a normal application, with a PS2 hardware layer (the GS from [PCSX2](https://pcsx2.net/)) underneath.
