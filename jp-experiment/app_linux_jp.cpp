@@ -526,7 +526,7 @@ void launchFromApp(const fs::path &exe, const fs::path &root, const std::vector<
                              "SteamGameId", "STEAM_COMPAT_CLIENT_INSTALL_PATH", "GAMESCOPE_WAYLAND_DISPLAY",
                              "ENABLE_GAMESCOPE_WSI", "LANG", "LC_ALL", "VK_ICD_FILENAMES", "VK_DRIVER_FILES",
                              "VK_INSTANCE_LAYERS", "MESA_VK_WSI_PRESENT_MODE", "FUKAMI_JP_DATA",
-                             "FUKAMI_JP_EXPERIMENTAL", "FUKAMI_JP_LOG", "FUKAMI_JP_NO_DIALOGS", "FUKAMI_JP_DISPLAY_SYNC", "FUKAMI_JP_STEADY_FIELDS",
+                             "FUKAMI_JP_EXPERIMENTAL", "FUKAMI_JP_LOG", "FUKAMI_JP_NO_DIALOGS", "FUKAMI_JP_DISPLAY_SYNC",
                              "RRV_TEST_PRESENT_LIMIT"})
         if (const char *value = std::getenv(name); value && *value)
             env.push_back(std::string(name) + "=" + value);
@@ -538,14 +538,6 @@ void launchFromApp(const fs::path &exe, const fs::path &root, const std::vector<
     {
         const char *sync = std::getenv("FUKAMI_JP_DISPLAY_SYNC");
         env.push_back(std::string("RRV_PCSX2_GS_DISPLAY_SYNC=") + (sync && std::strcmp(sync, "fifo") == 0 ? "fifo" : "mailbox"));
-    }
-    // Steady fields (2026-11-08): the game shifts odd fields by half a row for the interlaced CRT; presented
-    // as whole pictures that is a one-line bob every field. Removed by default (4-round GP replay: identical
-    // save); FUKAMI_JP_STEADY_FIELDS=0 restores the stock offset.
-    {
-        const char *steady = std::getenv("FUKAMI_JP_STEADY_FIELDS");
-        if (!(steady && std::strcmp(steady, "0") == 0))
-            env.push_back("RRV_RR5_STEADY_FIELDS=1");
     }
     env.push_back(std::string("RRV_BOOT_ARGV0=") + kBootArgv0);
     env.push_back(std::string(kChild) + "=1");

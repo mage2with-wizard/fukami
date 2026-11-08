@@ -1957,21 +1957,6 @@ static void patch_0x2c4c70(uint8_t* rdram, R5900Context* ctx, PS2Runtime* runtim
 // RRV_RR5_CAR_LOD_GUARD=0 (developer A/B) turns both off; RRV_RR5_CAR_LOD_LOG=1
 // prints the guard count and the largest lists at exit.
 namespace {
-// RR5 steady fields. The game draws each 60 Hz field as a 640x224 picture and, on odd fields (CSR.FIELD
-// parity stored by func_21DED8 at 0x34590C), func_2206C0 sets the draw offset [0x345744] to 8, i.e. XYOFFSET.Y
-// +0.5 row, so that the interlaced CRT shows the odd field between the even rows. Fukami presents each field
-// as a whole progressive picture, where that half row is a one-line bob every field (and, upscaled, a
-// staircase that moves). Hiding the parity from func_2206C0 only (restored right after) keeps every field
-// at the even-field position; buffer alternation ([0x345900]) and timing are untouched.
-PS2Runtime::RecompiledFunction g_steadyField2206C0Orig = nullptr;
-void patch_0x2206c0_steady_fields(uint8_t* rdram, R5900Context* ctx, PS2Runtime* runtime) {
-    uint8_t* parity = getMemPtr(rdram, 0x34590Cu);
-    uint32_t saved = 0;
-    if (parity) { std::memcpy(&saved, parity, 4); const uint32_t zero = 0; std::memcpy(parity, &zero, 4); }
-    g_steadyField2206C0Orig(rdram, ctx, runtime);
-    if (parity) std::memcpy(parity, &saved, 4);
-}
-
 PS2Runtime::RecompiledFunction g_lod226EB0Orig = nullptr, g_lodRace217628Orig = nullptr, g_lodDl21E658Orig = nullptr;
 float g_rr5CarLodFactor = 1.0f;
 bool g_carLodGuard = true, g_carLodLog = false;
@@ -3388,13 +3373,6 @@ void registerPatches(PS2Runtime& runtime)
 
     // Four-argument sceMcGetInfo of the Japanese libmc (see patch_0x2c8708_mc_getinfo4).
     runtime.registerFunction(0x2c8708u, patch_0x2c8708_mc_getinfo4);
-
-    // Steady fields (RRV_RR5_STEADY_FIELDS=1): no half-row interlace offset on odd fields.
-    if (const char* e = std::getenv("RRV_RR5_STEADY_FIELDS"); e && e[0] == '1' && runtime.hasFunction(0x2206c0u)) {
-        g_steadyField2206C0Orig = runtime.lookupFunction(0x2206c0u);
-        runtime.registerFunction(0x2206c0u, patch_0x2206c0_steady_fields);
-        std::fprintf(stderr, "[rr5-enhance] steady fields: odd-field XYOFFSET +8 (half a row) removed (func_2206C0)\n");
-    }
 
     if (const char* e = std::getenv("RRV_RR5_CAR_LOD"); e && e[0]) {
         const float factor = std::strcmp(e, "best") == 0 ? 1e30f : std::strtof(e, nullptr);
