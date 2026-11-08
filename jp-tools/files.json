@@ -1,0 +1,106 @@
+{
+  "jp": {
+    "R5.ALL": {
+      "size": 489742336,
+      "lba": 79677,
+      "sha256": "6090afbacce1efa4907ec415e8a44f6ab74b258aaaa733f056f9058ec62d7f36"
+    },
+    "MCMAN.IRX": {
+      "size": 63341,
+      "lba": 683,
+      "sha256": "9bf00bca0baf1cedda83eafa89994538959eace6ab11865c51c59cd3f8363539"
+    },
+    "MCSERV.IRX": {
+      "size": 5549,
+      "lba": 714,
+      "sha256": "d80617d0f466f1e96938f934ebce2a1897f0344b7e3401162d9fd0582dc71b46"
+    },
+    "PADMAN.IRX": {
+      "size": 39429,
+      "lba": 717,
+      "sha256": "26994f512c4d4cd5e458a4d15dd672191ccc5f4735ead5891542252a3de72eb3"
+    },
+    "RSPU2DRV.IRX": {
+      "size": 136157,
+      "lba": 742,
+      "sha256": "9e4063dc76d8c21eea7e06aca8ec8b132731f8323d7787851d979a6c6dfac133"
+    },
+    "SIO2MAN.IRX": {
+      "size": 8317,
+      "lba": 737,
+      "sha256": "20817a0c28152d0339eb1ba9e6fefc369c8a1933ec57dfae27bf8cdfaf86ea72"
+    },
+    "SLPS_200.01": {
+      "size": 1289332,
+      "lba": 24,
+      "sha256": "4532fb27202f6259c37d1e0d9f9d02f59f9479da29f0ac7d95e04bf5b5d759fa"
+    },
+    "SYSTEM.CNF": {
+      "size": 57,
+      "lba": 23,
+      "sha256": "87def77eed6432386bae1f2bbbe416d482b21b2cfa7cfbace0d163a4552c5abf"
+    },
+    "IOPRP14E.IMG": {
+      "size": 58013,
+      "lba": 654,
+      "sha256": "da3dc6d35e947a2526a236c801e074827ed144866a5ae73785c6c79159885168"
+    },
+    "R5.STR": {
+      "size": 161521664,
+      "lba": 809,
+      "sha256": "6f905212dedc0fabaf98f59e59d26f0ff9b66f95d440f700d67a57376f57e644"
+    }
+  },
+  "us": {
+    "R5.ALL": {
+      "size": 481452032,
+      "lba": 83743,
+      "sha256": "b1d5255db87ca8f02c8330174fb62d779924cda6b7daa917c5f3922d88e20970"
+    },
+    "MCMAN.IRX": {
+      "size": 69589,
+      "lba": 698,
+      "sha256": "546a6afcd3b15d08158d5de1243f84f129af4e86bd4bf507adfb6a070e332fb9"
+    },
+    "MCSERV.IRX": {
+      "size": 5829,
+      "lba": 732,
+      "sha256": "55541207ebb75b04feb75ee363c264adf55f8cefff2528dc9acc5e0c3b88b933"
+    },
+    "PADMAN.IRX": {
+      "size": 39629,
+      "lba": 735,
+      "sha256": "3570d7619f69c2687ad5cde26dd07374300a2a02f92c53bff877dd31a484c6ef"
+    },
+    "RSPU2DRV.IRX": {
+      "size": 136157,
+      "lba": 760,
+      "sha256": "9e4063dc76d8c21eea7e06aca8ec8b132731f8323d7787851d979a6c6dfac133"
+    },
+    "SIO2MAN.IRX": {
+      "size": 8317,
+      "lba": 755,
+      "sha256": "d86c1c84564bfb3d6a06ad0f851e0c3af8a8045d8e2e692b5e4cf0327ea1ebb1"
+    },
+    "SYSTEM.CNF": {
+      "size": 56,
+      "lba": 23,
+      "sha256": "5fa5bdb8c34d8432869749baa3f63aa86b79d90cbdd345af3ff2d89947dca4de"
+    },
+    "R5.STR": {
+      "size": 169811968,
+      "lba": 827,
+      "sha256": "3b9f3a78d3adb200ea55ebeb0659afab7c1178f74ad358bd6025d23fa4faf76d"
+    },
+    "IOPRP15.IMG": {
+      "size": 82741,
+      "lba": 657,
+      "sha256": "d265e934cbe50de4b82d24dc67e629430676dce469890bd41ad3d824cee1485f"
+    },
+    "SLUS_200.02": {
+      "size": 1295332,
+      "lba": 24,
+      "sha256": "fb5b4d3f6d74384cee9da4c8b954b40a0205da0a9ae7db9e68d670156f5e706f"
+    }
+  }
+}

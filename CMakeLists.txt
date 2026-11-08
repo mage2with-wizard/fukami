@@ -1,5 +1,10 @@
 cmake_minimum_required(VERSION 3.21)
 project(RRV-Recomp VERSION 0.1.0 LANGUAGES CXX)
+option(RRV_JP_EXPERIMENT "Local JP diagnostic build" OFF)
+if(RRV_JP_EXPERIMENT)
+ include(${CMAKE_SOURCE_DIR}/jp-experiment/build.cmake)
+ return()
+endif()
 
 include(CTest)
 include("${CMAKE_SOURCE_DIR}/cmake/RrvToolchainFlags.cmake")

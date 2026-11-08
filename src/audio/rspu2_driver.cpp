@@ -7,9 +7,9 @@
 #include "rspu2_driver.h"
 
 #include "rrv_pcsx2_spu2.h"
+#include "../gs-backend/rrv_thread_name.h"
 #if defined(RRV_GATE8_SPU2)
 #include "rrv_sdl_audio.h"
-#include "../gs-backend/rrv_thread_name.h"
 #endif
 
 #include <algorithm>

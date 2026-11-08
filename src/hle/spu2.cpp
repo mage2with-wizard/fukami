@@ -55,7 +55,7 @@ void spu2Remote_hle(uint8_t* rdram, R5900Context* ctx, PS2Runtime* /*runtime*/) 
     uint32_t s0probe = 0;
     if ((cmd & 0xFFFFu) == 0x4065u) {
         const uint32_t gp = getRegU32(ctx, 28);
-        const uint32_t addr = (gp - 0x6320u) & PS2_RAM_MASK;
+        const uint32_t addr = (gp - 0x6350u) & PS2_RAM_MASK;
         std::memcpy(&s0probe, rdram + addr, sizeof(s0probe));
         ret = s0probe;
     }

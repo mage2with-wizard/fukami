@@ -807,7 +807,17 @@ namespace
 
         uint64_t nextU64()
         {
-            // O32 ABI aligns 64-bit variadic values on even 32-bit slots.
+            // EE (EABI64, ee-gcc): a 64-bit variadic value in the register area
+            // occupies ONE whole 64-bit GPR, not an O32 even/odd pair. RRV's
+            // results screen ("%3.3f km/h", caller 0x26bb58: `move $t2,$v0` of the
+            // soft-double fptodp result, $t3 unused) printed 0.000 under the pair rule.
+            if (m_slotIndex < 8u)
+            {
+                const int reg = 4 + static_cast<int>(m_slotIndex);
+                ++m_slotIndex;
+                return static_cast<uint64_t>(_mm_extract_epi64(m_ctx->r[reg], 0));
+            }
+            // Stack area: keep the previous O32-style even-slot pairing.
             if ((m_slotIndex & 1u) != 0u)
             {
                 ++m_slotIndex;

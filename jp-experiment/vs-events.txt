@@ -1,0 +1,4 @@
+# VS mode probe: main menu cursor NEW ENTRY -> down x2 -> VS -> O
+880 0 40
+900 0 40
+925 0 2000

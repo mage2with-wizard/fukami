@@ -30,3 +30,11 @@ __pycache__/
 .DS_Store
 .idea/
 .vscode/
+# ---------- Japanese edition (SLPS-20001) experiment: generated or local, never commit ----------
+/jp-build/
+/jp-run/
+/jp-analysis/output/
+/jp-analysis/regen/
+/jp-experiment/native/rrv_ee_native.inc
+/jp-experiment/replay-*.txt
+*.before-*

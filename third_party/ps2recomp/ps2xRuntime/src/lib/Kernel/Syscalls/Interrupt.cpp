@@ -83,7 +83,7 @@ void gate3SyncV(uint8_t* rdram,R5900Context* ctx,PS2Runtime* runtime) {
     runtime->gate3DiagSyncVV1(ctx,true);
     const uint32_t gp=getRegU32(ctx,28);
     const auto load=[&](uint32_t address){uint32_t value;std::memcpy(&value,getMemPtr(rdram,address),4);return value;};
-    if(load(gp-0x5c80u)!=0)
+    if(load(gp-0x5cfcu)!=0)
         throw std::logic_error("Gate3 SyncV alternate syscall-73 FIELD binding unresolved");
     runtime->gate3HardwareV1();
     auto& owner=runtime->gate3TemporalV1();
@@ -93,7 +93,7 @@ void gate3SyncV(uint8_t* rdram,R5900Context* ctx,PS2Runtime* runtime) {
     owner.intc().AcknowledgeVBlankStart();
     // Original 0x2C3470: lh v1,-0x5C88(gp) - the interlace flag is a signed
     // halfword. RR5's next halfword is 2, so a 32-bit read never equals 1.
-    int16_t interlace; std::memcpy(&interlace,getMemPtr(rdram,gp-0x5c88u),2);
+    int16_t interlace; std::memcpy(&interlace,getMemPtr(rdram,gp-0x5d04u),2);
     setReturnS32(ctx,interlace==1 ? int(owner.field()) : 1);
     runtime->gate3DiagSyncVV1(ctx,false);
 }

@@ -1,0 +1,512 @@
+rrv-gate3-bound-workload 1
+manifest_sha256 db1925a202687430839bd0663581754f2832cc3c88bf70c8eb37d306b91aadc7
+terminal_starts 7500
+intc_stat 0
+intc_mask 0
+alarm_unit hsync
+rtc_epoch 972518400
+rtc_offset_minutes 0
+pad_initial 0 1 5252564e45555452 0 0 0 0 0 0 0 1 1 0 0
+pad_initial 1 1 5252564e45555452 0 0 0 0 0 0 0 1 1 1 0
+cd_policy deterministic-next-start
+cd_wait_budget_ms 60000
+storage persistent_user_card
+pad 4920116 1 0 1 0 0 0.0927457511 -0.0399487279 0.115634635 -0.0565507971 0 0 1 1 1 0
+pad 541212672 2 0 1 0 0 0.0927457511 -0.0399487279 0.115634635 0.00518814661 0 0 1 1 1 0
+pad 551052903 3 0 1 0 0 0.0927457511 -0.0399487279 0.115634635 0.0154728843 0 0 1 1 1 0
+pad 555973018 4 0 1 0 0 0.0927457511 -0.0399487279 0.115634635 0.0257881414 0 0 1 1 1 0
+pad 565813248 5 0 1 0 0 0.0927457511 -0.0399487279 0.115634635 0.03607288 0 0 1 1 1 0
+pad 570733364 6 0 1 0 0 0.0927457511 -0.0399487279 0.091830194 0.0669576079 0 0 1 1 1 0
+pad 575653479 7 0 1 0 0 0.0927457511 -0.0399487279 0.0748008639 0.101260416 0 0 1 1 1 0
+pad 580573594 8 0 1 0 0 0.0927457511 -0.0399487279 0.0680257604 0.128696561 0 0 1 1 1 0
+pad 585493709 9 0 1 0 0 0.0927457511 -0.0399487279 0.0714133158 0.138981298 0 0 1 1 1 0
+pad 595333940 10 0 1 0 0 0.0927457511 -0.0399487279 0.0714133158 0.0566423535 0 0 1 1 1 0
+pad 600254055 11 0 1 0 0 0.0927457511 -0.0399487279 0.0714133158 0.0463576168 0 0 1 1 1 0
+pad 615014400 12 0 1 0 0 0.0927457511 -0.0399487279 0.0714133158 0.03607288 0 0 1 1 1 0
+pad 659295437 13 0 1 0 0 0.0927457511 -0.0399487279 0.00338755455 0.0394909531 0 0 1 1 1 0
+pad 664215552 14 0 1 0 0 0.0927457511 -0.0399487279 -0.0442213193 0.0223395489 0 0 1 1 1 0
+pad 669135668 15 0 1 0 0 0.0927457511 -0.0399487279 0 -0.0256660674 0 0 1 1 1 0
+pad 674055783 16 0 1 0 0 0.0927457511 -0.0399487279 0.0476088747 -0.0359813236 0 0 1 1 1 0
+pad 678975898 17 0 1 0 0 0.0927457511 -0.0399487279 0.0476088747 -0.0393993966 0 0 1 1 1 0
+pad 703576474 18 0 1 0 0 0.0927457511 -0.0399487279 0.0476088747 -0.053132724 0 0 1 1 1 0
+pad 708496589 19 0 1 0 0 0.0927457511 -0.0399487279 0.0408032462 -0.0805688649 0 0 1 1 1 0
+pad 713416704 20 0 1 0 0 0.0927457511 -0.0266121402 -0.0306405835 -0.104586929 0 0 1 1 1 0
+pad 718336820 21 0 1 0 0 -0.0320444368 0.0567033924 -0.0544450209 -0.1114536 0 0 1 1 1 0
+pad 723256935 22 0 1 0 0 -0.0590227991 0.0500503555 -0.0510269478 -0.1114536 0 0 1 1 1 0
+pad 728177050 23 0 1 0 0 -0.109591968 0.060029909 -0.0578325763 -0.108005002 0 0 1 1 1 0
+pad 733097165 24 0 1 0 0 -0.166936249 0.0533768721 -0.0578325763 -0.108005002 0 0 1 1 1 0
+pad 738017280 25 0 1 0 0 -0.258003473 0.130039364 -0.0544450209 -0.108005002 0 0 1 1 1 0
+pad 742937396 26 0 1 0 0 -0.264748067 0.156712547 -0.0578325763 -0.108005002 0 0 1 1 1 0
+pad 747857511 27 0 1 0 0 -0.261360526 0.166722611 -0.0578325763 -0.104586929 0 0 1 1 1 0
+pad 757697741 28 0 1 0 0 -0.258003473 0.143375963 -0.0544450209 -0.104586929 0 0 1 1 1 0
+pad 762617856 29 0 1 0 0 -0.234382153 0.170049131 -0.0578325763 -0.108005002 0 0 1 1 1 0
+pad 767537972 30 0 1 0 8 -0.150059506 0.0567033924 -0.0544450209 -0.104586929 0 0 1 1 1 0
+pad 777378202 31 0 1 0 8 -0.150059506 0.0467238389 -0.0544450209 -0.101138338 0 0 1 1 1 0
+pad 797058663 32 0 1 0 8 -0.146702468 0.043366801 -0.0578325763 -0.0874355286 0 0 1 1 1 0
+pad 801978778 33 0 1 0 8 -0.0927457511 0.0400402844 -0.0544450209 -0.0874355286 0 0 1 1 1 0
+pad 806898893 34 0 1 0 8 -0.048890654 0.0133671071 -0.0544450209 -0.0908536017 0 0 1 1 1 0
+pad 811819008 35 0 1 0 8 -0.0421460606 -0.0166325886 -0.0544450209 -0.0908536017 0 0 1 1 1 0
+pad 816739124 36 0 1 0 8 -0.0320444368 0.00671407208 -0.0544450209 -0.0874355286 0 0 1 1 1 0
+pad 826579354 37 0 1 0 0 -0.0320444368 3.05185094e-05 -0.0544450209 -0.083986938 0 0 1 1 1 0
+pad 841339700 38 0 1 0 0 -0.0219122898 3.05185094e-05 -0.0510269478 -0.0874355286 0 0 1 1 1 0
+pad 846259815 39 0 1 0 0 -0.035401471 0.00671407208 -0.0510269478 -0.0874355286 0 0 1 1 1 0
+pad 861020160 40 0 1 0 0 -0.0252998453 0.00671407208 -0.0510269478 -0.0874355286 0 0 1 1 1 0
+pad 910221312 41 0 1 0 0 -0.0252998453 -0.00329599902 -0.0476393923 -0.083986938 0 0 1 1 1 0
+pad 949582234 42 0 1 0 8 -0.0219122898 -0.00329599902 -0.0476393923 -0.083986938 0 0 1 1 1 0
+pad 988943156 43 0 1 0 0 -0.0286568813 3.05185094e-05 -0.0442213193 -0.083986938 0 0 1 1 1 0
+pad 993863271 44 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0442213193 -0.083986938 0 0 1 1 1 0
+pad 1121786266 45 0 1 0 8 -0.0252998453 3.05185094e-05 -0.0476393923 -0.0874355286 0 0 1 1 1 0
+pad 1126706381 46 0 1 0 8 -0.0219122898 3.05185094e-05 -0.0476393923 -0.0874355286 0 0 1 1 1 0
+pad 1170987418 47 0 1 0 0 -0.0252998453 -0.00329599902 -0.0442213193 -0.0874355286 0 0 1 1 1 0
+pad 1982806426 48 0 1 0 8 -0.0252998453 3.05185094e-05 -0.0442213193 -0.0908536017 0 0 1 1 1 0
+pad 1987726541 49 0 1 0 8 -0.0252998453 3.05185094e-05 -0.0442213193 -0.101138338 0 0 1 1 1 0
+pad 1997566772 50 0 1 0 8 -0.0286568813 3.05185094e-05 -0.0442213193 -0.1114536 0 0 1 1 1 0
+pad 2027087463 51 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0476393923 -0.104586929 0 0 1 1 1 0
+pad 2041847808 52 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0442213193 -0.0943021923 0 0 1 1 1 0
+pad 2642101863 53 0 1 0 8 -0.0252998453 3.05185094e-05 -0.0374156944 -0.0908536017 0 0 1 1 1 0
+pad 2681462784 54 0 1 0 8 -0.0252998453 0.00338755455 -0.0408337675 -0.101138338 0 0 1 1 1 0
+pad 2710983476 55 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0374156944 -0.0977202654 0 0 1 1 1 0
+pad 2917628314 56 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0476393923 -0.0943021923 0 0 1 1 1 0
+pad 2956989236 57 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0374156944 -0.0943021923 0 0 1 1 1 0
+pad 4132896768 58 0 1 0 4000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4196858266 59 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4231298900 60 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4329701201 61 0 1 0 40 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4349381661 62 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4428103501 63 0 1 0 40 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4447783961 64 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4551106376 65 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 4570786836 66 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 5412126501 67 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 5431806961 68 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 5461327652 69 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 5481008112 70 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 6150143751 71 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 6169824211 72 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 6199344902 73 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 6219025362 74 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 6888161001 75 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 6907841461 76 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 6937362152 77 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 6957042612 78 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 7872184001 79 0 1 0 40 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 7891864461 80 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8019787451 81 0 1 0 40 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8039467911 82 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8167390901 83 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8187071361 84 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8856207001 85 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8875887461 86 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 8905408152 87 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 8925088612 88 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 9594224251 89 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 9613904711 90 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 9643425402 91 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 9663105862 92 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 10332241501 93 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 10351921961 94 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 10381442652 95 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 10401123112 96 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 11070258751 97 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 11089939211 98 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 11119459902 99 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 11139140362 100 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 11808276001 101 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 11827956461 102 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 11857477152 103 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 11877157612 104 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 12546293251 105 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 12565973711 106 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 12595494402 107 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 12615174862 108 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 13038304751 109 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 13057985211 110 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 13087505902 111 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 13107186362 112 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 13530316251 113 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 13549996711 114 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 13579517402 115 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 13599197862 116 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 14022327751 117 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 14042008211 118 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 14071528902 119 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 14091209362 120 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 14514339251 121 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 14534019711 122 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 14563540402 123 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 14583220862 124 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 15006350751 125 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 15026031211 126 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 15055551902 127 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 15075232362 128 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 15498362251 129 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 15518042711 130 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 15547563402 131 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 15567243862 132 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 15990373751 133 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 16010054211 134 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 16039574902 135 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 16059255362 136 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 16482385251 137 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 16502065711 138 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 16531586402 139 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 16551266862 140 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 16974396751 141 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 16994077211 142 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 17023597902 143 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 17043278362 144 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 17466408251 145 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 17486088711 146 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 17515609402 147 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 17535289862 148 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 17958419751 149 0 1 0 2000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 17978100211 150 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 18007620902 151 1 1 0 2000 0 0 0 0 0 0 1 1 1 0
+pad 18027301362 152 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+pad 18696437001 153 0 1 0 4000 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 18696437002 154 1 1 0 4000 0 0 0 0 0 0 1 1 1 0
+pad 36408851001 155 0 1 0 0 -0.0252998453 3.05185094e-05 -0.0408337675 -0.0943021923 0 0 1 1 1 0
+pad 36408851002 156 1 1 0 0 0 0 0 0 0 0 1 1 1 0
+hle patch:0x2000c0 0
+hle patch:0x21fe20 0
+hle patch:0x293b80 0
+hle patch:0x299c28 0
+hle patch:0x2c4c70 0
+hle patch:0x2c8e60 0
+hle patch:0x2c8ea8 0
+hle patch:0x2c8ef0 0
+hle patch:0x2c8f70 0
+hle patch:0x2c90a8 0
+hle patch:0x2c93d0 0
+hle patch:0x2c94f8 0
+hle patch:0x2c95b0 0
+hle ps2_stubs::__divdi3 0
+hle ps2_stubs::__ieee754_rem_pio2f 0
+hle ps2_stubs::__kernel_cosf 0
+hle ps2_stubs::__kernel_sinf 0
+hle ps2_stubs::atan 0
+hle ps2_stubs::atan2 0
+hle ps2_stubs::calloc_r 0
+hle ps2_stubs::fabs 0
+hle ps2_stubs::fflush 0
+hle ps2_stubs::free_r 0
+hle ps2_stubs::malloc_extend_top 0
+hle ps2_stubs::malloc_r 0
+hle ps2_stubs::malloc_trim_r 0
+hle ps2_stubs::mbtowc_r 0
+hle ps2_stubs::mceGetInfoApdx 0
+hle ps2_stubs::mceIntrReadFixAlign 0
+hle ps2_stubs::mceStorePwd 0
+hle ps2_stubs::memchr 0
+hle ps2_stubs::memclr 0
+hle ps2_stubs::memcpy 0
+hle ps2_stubs::memmove 0
+hle ps2_stubs::memset 0
+hle ps2_stubs::pow 0
+hle ps2_stubs::printf 0
+hle ps2_stubs::read 0
+hle ps2_stubs::sceCdBreak 0
+hle ps2_stubs::sceCdCallback 0
+hle ps2_stubs::sceCdDiskReady 0
+hle ps2_stubs::sceCdGetDiskType 0
+hle ps2_stubs::sceCdGetError 0
+hle ps2_stubs::sceCdGetReadPos 0
+hle ps2_stubs::sceCdGetToc 0
+hle ps2_stubs::sceCdInit 0
+hle ps2_stubs::sceCdInitEeCB 0
+hle ps2_stubs::sceCdIntToPos 0
+hle ps2_stubs::sceCdNcmdDiskReady 0
+hle ps2_stubs::sceCdPause 0
+hle ps2_stubs::sceCdPosToInt 0
+hle ps2_stubs::sceCdRead 0
+hle ps2_stubs::sceCdReadClock 0
+hle ps2_stubs::sceCdReadIOPm 0
+hle ps2_stubs::sceCdSearchFile 0
+hle ps2_stubs::sceCdSeek 0
+hle ps2_stubs::sceCdStRead 0
+hle ps2_stubs::sceCdStSeek 0
+hle ps2_stubs::sceCdStStart 0
+hle ps2_stubs::sceCdStStat 0
+hle ps2_stubs::sceCdStStop 0
+hle ps2_stubs::sceCdStandby 0
+hle ps2_stubs::sceCdStatus 0
+hle ps2_stubs::sceCdStop 0
+hle ps2_stubs::sceCdStream 0
+hle ps2_stubs::sceCdSync 0
+hle ps2_stubs::sceCdSyncS 0
+hle ps2_stubs::sceCdTrayReq 0
+hle ps2_stubs::sceClose 0
+hle ps2_stubs::sceDeci2Close 0
+hle ps2_stubs::sceDeci2ExLock 0
+hle ps2_stubs::sceDeci2ExRecv 0
+hle ps2_stubs::sceDeci2ExReqSend 0
+hle ps2_stubs::sceDeci2ExSend 0
+hle ps2_stubs::sceDeci2ExUnLock 0
+hle ps2_stubs::sceDeci2Open 0
+hle ps2_stubs::sceDeci2Poll 0
+hle ps2_stubs::sceDeci2ReqSend 0
+hle ps2_stubs::sceDevVif0Reset 0
+hle ps2_stubs::sceDmaGetChan 0
+hle ps2_stubs::sceDmaGetEnv 0
+hle ps2_stubs::sceDmaPutEnv 0
+hle ps2_stubs::sceDmaPutStallAddr 0
+hle ps2_stubs::sceDmaRecv 0
+hle ps2_stubs::sceDmaRecvI 0
+hle ps2_stubs::sceDmaRecvN 0
+hle ps2_stubs::sceDmaReset 0
+hle ps2_stubs::sceDmaSend 0
+hle ps2_stubs::sceDmaSendI 0
+hle ps2_stubs::sceDmaSendN 0
+hle ps2_stubs::sceDmaSync 0
+hle ps2_stubs::sceDmaWatch 0
+hle ps2_stubs::sceFsInit 0
+hle ps2_stubs::sceGsExecLoadImage 0
+hle ps2_stubs::sceGsPutDispEnv 0
+hle ps2_stubs::sceGsResetGraph 0
+hle ps2_stubs::sceGsResetPath 0
+hle ps2_stubs::sceGsSetDefDispEnv 0
+hle ps2_stubs::sceGsSetDefLoadImage 0
+hle ps2_stubs::sceGsSyncPath 0
+hle ps2_stubs::sceGsSyncV 0
+hle ps2_stubs::sceIoctl 0
+hle ps2_stubs::sceLseek 0
+hle ps2_stubs::sceMcChdir 0
+hle ps2_stubs::sceMcClose 0
+hle ps2_stubs::sceMcDelete 0
+hle ps2_stubs::sceMcFlush 0
+hle ps2_stubs::sceMcFormat 0
+hle ps2_stubs::sceMcGetDir 0
+hle ps2_stubs::sceMcGetEntSpace 0
+hle ps2_stubs::sceMcGetInfo 0
+hle ps2_stubs::sceMcInit 0
+hle ps2_stubs::sceMcMkdir 0
+hle ps2_stubs::sceMcOpen 0
+hle ps2_stubs::sceMcRead 0
+hle ps2_stubs::sceMcRename 0
+hle ps2_stubs::sceMcSeek 0
+hle ps2_stubs::sceMcSetFileInfo 0
+hle ps2_stubs::sceMcSync 0
+hle ps2_stubs::sceMcUnformat 0
+hle ps2_stubs::sceMcWrite 0
+hle ps2_stubs::sceOpen 0
+hle ps2_stubs::scePadEnd 0
+hle ps2_stubs::scePadGetButtonMask 0
+hle ps2_stubs::scePadGetFrameCount 0
+hle ps2_stubs::scePadGetPortMax 0
+hle ps2_stubs::scePadGetReqState 0
+hle ps2_stubs::scePadGetSlotMax 0
+hle ps2_stubs::scePadGetState 0
+hle ps2_stubs::scePadInfoAct 0
+hle ps2_stubs::scePadInfoComb 0
+hle ps2_stubs::scePadInfoMode 0
+hle ps2_stubs::scePadInfoPressMode 0
+hle ps2_stubs::scePadInit 0
+hle ps2_stubs::scePadInit2 0
+hle ps2_stubs::scePadPortClose 0
+hle ps2_stubs::scePadPortOpen 0
+hle ps2_stubs::scePadRead 0
+hle ps2_stubs::scePadSetActAlign 0
+hle ps2_stubs::scePadSetActDirect 0
+hle ps2_stubs::scePadSetButtonInfo 0
+hle ps2_stubs::scePadSetMainMode 0
+hle ps2_stubs::scePadSetReqState 0
+hle ps2_stubs::scePadSetVrefParam 0
+hle ps2_stubs::scePadStateIntToStr 0
+hle ps2_stubs::scePrintf 0
+hle ps2_stubs::sceRead 0
+hle ps2_stubs::sceRpcGetFPacket 0
+hle ps2_stubs::sceRpcGetFPacket2 0
+hle ps2_stubs::sceSifAddCmdHandler 0
+hle ps2_stubs::sceSifAllocIopHeap 0
+hle ps2_stubs::sceSifBindRpc 0
+hle ps2_stubs::sceSifCheckStatRpc 0
+hle ps2_stubs::sceSifExecRequest 0
+hle ps2_stubs::sceSifExitCmd 0
+hle ps2_stubs::sceSifGetIopAddr 0
+hle ps2_stubs::sceSifGetNextRequest 0
+hle ps2_stubs::sceSifGetOtherData 0
+hle ps2_stubs::sceSifInitCmd 0
+hle ps2_stubs::sceSifInitIopHeap 0
+hle ps2_stubs::sceSifInitRpc 0
+hle ps2_stubs::sceSifIsAliveIop 0
+hle ps2_stubs::sceSifLoadElf 0
+hle ps2_stubs::sceSifLoadIopHeap 0
+hle ps2_stubs::sceSifRebootIop 0
+hle ps2_stubs::sceSifRegisterRpc 0
+hle ps2_stubs::sceSifRemoveCmdHandler 0
+hle ps2_stubs::sceSifRemoveRpc 0
+hle ps2_stubs::sceSifRemoveRpcQueue 0
+hle ps2_stubs::sceSifResetIop 0
+hle ps2_stubs::sceSifRpcLoop 0
+hle ps2_stubs::sceSifSetIopAddr 0
+hle ps2_stubs::sceSifSetRpcQueue 0
+hle ps2_stubs::sceSifSyncIop 0
+hle ps2_stubs::sceSifWriteBackDCache 0
+hle ps2_stubs::sceTtyHandler 0
+hle ps2_stubs::sceTtyInit 0
+hle ps2_stubs::sceTtyRead 0
+hle ps2_stubs::sceTtyWrite 0
+hle ps2_stubs::sceVpu0Reset 0
+hle ps2_stubs::sceVu0ApplyMatrix 0
+hle ps2_stubs::sceVu0CopyMatrix 0
+hle ps2_stubs::sceVu0InnerProduct 0
+hle ps2_stubs::sceVu0Normalize 0
+hle ps2_stubs::sceVu0RotMatrixX 0
+hle ps2_stubs::sceVu0RotMatrixY 0
+hle ps2_stubs::sceVu0RotMatrixZ 0
+hle ps2_stubs::sceVu0TransposeMatrix 0
+hle ps2_stubs::sceVu0UnitMatrix 0
+hle ps2_stubs::sceWrite 0
+hle ps2_stubs::sprintf 0
+hle ps2_stubs::strcat 0
+hle ps2_stubs::strcmp 0
+hle ps2_stubs::strcpy 0
+hle ps2_stubs::strlen 0
+hle ps2_stubs::strncmp 0
+hle ps2_stubs::strncpy 0
+hle ps2_stubs::write 0
+hle ps2_syscalls::sceRpcGetPacket 0
+hle ps2_syscalls::sceSifCallRpc 0
+hle ps2_syscalls::sceSifLoadElfPart 0
+hle ps2_syscalls::sceSifLoadModule 0
+hle ps2_syscalls::sceSifSendCmd 0
+hle rrv_hle::atan2_soft_double_stub 0
+hle rrv_hle::atan_soft_double_stub 0
+hle rrv_hle::fabs_soft_double_stub 0
+hle rrv_hle::pow_soft_double_stub 0
+hle syscall:0 0
+hle syscall:1 0
+hle syscall:10 0
+hle syscall:100 0
+hle syscall:102 0
+hle syscall:107 0
+hle syscall:108 0
+hle syscall:109 0
+hle syscall:11 0
+hle syscall:110 0
+hle syscall:111 0
+hle syscall:112 0
+hle syscall:113 0
+hle syscall:114 0
+hle syscall:115 0
+hle syscall:116 0
+hle syscall:117 0
+hle syscall:118 0
+hle syscall:119 0
+hle syscall:12 0
+hle syscall:120 0
+hle syscall:121 0
+hle syscall:122 0
+hle syscall:123 0
+hle syscall:124 0
+hle syscall:125 0
+hle syscall:126 0
+hle syscall:127 0
+hle syscall:13 0
+hle syscall:14 0
+hle syscall:15 0
+hle syscall:16 0
+hle syscall:17 0
+hle syscall:18 0
+hle syscall:19 0
+hle syscall:2 0
+hle syscall:20 0
+hle syscall:21 0
+hle syscall:22 0
+hle syscall:23 0
+hle syscall:24 0
+hle syscall:25 0
+hle syscall:3 0
+hle syscall:32 0
+hle syscall:33 0
+hle syscall:34 0
+hle syscall:35 0
+hle syscall:36 0
+hle syscall:37 0
+hle syscall:39 0
+hle syscall:4 0
+hle syscall:40 0
+hle syscall:41 0
+hle syscall:4294967176 0
+hle syscall:4294967177 0
+hle syscall:4294967178 0
+hle syscall:4294967183 0
+hle syscall:4294967184 0
+hle syscall:4294967190 0
+hle syscall:4294967192 0
+hle syscall:4294967193 0
+hle syscall:4294967201 0
+hle syscall:4294967202 0
+hle syscall:4294967203 0
+hle syscall:4294967204 0
+hle syscall:4294967206 0
+hle syscall:4294967208 0
+hle syscall:4294967211 0
+hle syscall:4294967213 0
+hle syscall:4294967224 0
+hle syscall:4294967226 0
+hle syscall:4294967229 0
+hle syscall:4294967238 0
+hle syscall:4294967240 0
+hle syscall:4294967242 0
+hle syscall:4294967244 0
+hle syscall:4294967247 0
+hle syscall:4294967250 0
+hle syscall:4294967252 0
+hle syscall:4294967254 0
+hle syscall:4294967258 0
+hle syscall:4294967265 0
+hle syscall:4294967266 0
+hle syscall:4294967267 0
+hle syscall:4294967268 0
+hle syscall:4294967269 0
+hle syscall:4294967270 0
+hle syscall:43 0
+hle syscall:45 0
+hle syscall:47 0
+hle syscall:48 0
+hle syscall:5 0
+hle syscall:50 0
+hle syscall:51 0
+hle syscall:53 0
+hle syscall:55 0
+hle syscall:57 0
+hle syscall:59 0
+hle syscall:6 0
+hle syscall:60 0
+hle syscall:61 0
+hle syscall:62 0
+hle syscall:63 0
+hle syscall:64 0
+hle syscall:65 0
+hle syscall:66 0
+hle syscall:68 0
+hle syscall:69 0
+hle syscall:7 0
+hle syscall:71 0
+hle syscall:73 0
+hle syscall:74 0
+hle syscall:75 0
+hle syscall:76 0
+hle syscall:77 0
+hle syscall:78 0
+hle syscall:79 0
+hle syscall:8 0
+hle syscall:80 0
+hle syscall:81 0
+hle syscall:82 0
+hle syscall:84 0
+hle syscall:86 0
+hle syscall:87 0
+hle syscall:89 0
+hle syscall:9 0
+hle syscall:91 0
+hle syscall:92 0
+hle syscall:93 0
+hle syscall:94 0
+hle syscall:95 0
+hle syscall:96 0
+hle syscall:97 0
+hle syscall:98 0
+hle syscall:99 0
+end 511
