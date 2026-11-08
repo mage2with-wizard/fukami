@@ -24,6 +24,13 @@ Verified on the Japanese edition, mostly by replaying recorded play with fixed i
   33 late fields out of 76,407)
 - Real widescreen 16:9 / 21:9 with `hud = race`, car LOD (default 4), draw distance, car depth fix
 - VS mode reaches the split-screen race with scripted input on two ports (not tested with two real pads)
+- Steady fields (on by default): the game offsets odd fields by half a row for the interlaced CRT, which Fukami
+  showed as a one-line bob every field; `patch_0x2206c0_steady_fields` removes it (4-round GP replay: identical
+  save). `FUKAMI_JP_STEADY_FIELDS=0` restores the stock offset. The race is still drawn at 224 rows per field;
+  a higher internal scale (4-6) gives the vertical detail and costs little on a current GPU.
+
+Rollback: the tag `jp-before-steady-fields` marks this branch before that change
+(`git checkout jp-before-steady-fields`, or `git revert` the steady-fields commit).
 
 Fix also useful upstream: `Ps2VarArgCursor::nextU64` (ps2xRuntime `Support.h`) read a `double` vararg as an O32
 register pair; the EE passes it in one 64-bit GPR (results screen showed 0.000 km/h).
